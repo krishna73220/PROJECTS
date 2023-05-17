@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: white;
+        }
+
+        .sec1 {
+            width: 100%;
+            height: 750px;
+            background-color: rgb(232, 232, 232);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .form {
+            background-color: white;
+            width: 500px;
+            height: 600px;
+        }
+        .heding1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+            height: 100%;
+         
+        }
+        .head{
+           font-size: 35px;
+           padding: 20px 0;
+           color: rgba(0, 0, 0, 0.668);
+        }
+        .form{
+            padding: 20px;
+           line-height: 30px;
+           font-size: 18px;
+           color: rgba(0, 0, 0, 0.677);
+        }
+        .form input{
+            padding: 8px;
+            width: 95%;
+            outline: none;
+            border: 0.5px solid rgba(0, 0, 0, 0.325);
+            border-radius: 5px;
+            margin-bottom: 25px;
+        }
+        .btn{
+            width: 110%;
+            background-color: rgba(29, 29, 249, 0.841);
+            color: white;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .term{
+            font-size: 17px;
+            color: rgba(0, 0, 0, 0.472);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="heding1">
+            <div>
+                <img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b2c9171e2934a9ba9598fbf_huber_favicon.png"
+                    alt="" width="20" >
+                    <span>UsabilityHub</span>
+            </div>
+            <span>Sign in</span>
+        </div>
+
+       
+    </header>
+   
+    <section class="sec1">
+
+        <h1 class="head">Sign up to UsabilityHub</h1>
+
+        <div class="form">
+            <form action="#">
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Your name">
+                <br>
+                <label for="fname1">Organization:</label><br>
+                <input type="text" id="fname1" name="fname1" placeholder="Your Organization">
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" placeholder="Your email" id="email"> <br>
+                <label for="password">Password</label> <br>
+                <input type="password" id="password" placeholder="Your password">
+
+                <p class="term">By signing up, you agree to UsabilityHub’s <span style="color: blue;">Terms of Service</span> and <span style="color: blue;">Privacy Policy</span>.</p>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@media screen and (max-width:1300px){
+    .list_1{
+        display: none;
+    }
+    .hidden1{
+        display: none !important;
+     
+    }
+    .kk{
+        display: none !important;
+  
+    }
+    .itemBox{
+        width: calc(100%/3);
+        min-width: 300px;
+        height: 100%;
+        padding: 20px;
+        background-color: white;
+     
+    }
+    .block1{
+        display: block;
+    }
+  
+};

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1682018092446-2fe62350cfad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(5, 5, 5, 0.658);
+}
+.main {
+    text-align: center;
+    color: white;
+    padding: 60px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+  
+}
+.input{
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+   text-align: center;
+   font-size: 25px;
+}
+
+input{
+
+    width: 75px;
+    margin: 0 20px;
+    border-radius: 5px;
+    border:2px solid red;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgba(0, 0, 255, 0.748);
+}
+.inn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+.input>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#start{
+    background-color: rgba(255, 0, 0, 0.936);
+    color: white;
+}
+#stop{
+    background-color: rgba(0, 128, 0, 0.929);
+    color: white;
+}
+#reset{
+    background-color: rgba(0, 0, 255, 0.921);
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+#stop:active{
+   
+    background-color: rgba(8, 192, 8, 0.929);
+}
+#start:active{
+    background-color: rgba(219, 0, 0, 0.936);
+  
+}
+#reset:active{
+    background-color: rgba(0, 0, 208, 0.921);
+  
+}
