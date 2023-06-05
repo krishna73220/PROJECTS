@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(rgb(30, 255, 0),rgb(200, 246, 200));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.result{
+ 
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+input{
+border: none;
+font-size: 30px;
+padding: 10px 20px;
+border-radius: 10px;
+outline-color: rgb(253, 7, 81);
+border: 1px solid red;
+
+}
+#submit{
+    cursor: pointer;
+}
+#submit:active{
+background-color: rgb(250, 39, 84);
+color: white;
+}
