@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}                                                                                                   
+
+main{
+    width: 100vw;
+    height: 100vh;                           
+    background: rgb(255,55,55);
+    background: linear-gradient(90deg, rgba(255,55,55,1) 24%, rgba(210,2,118,1) 61%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(210, 143, 167);
+    
+}
+section{
+width: 700px;
+height: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+background-color: rgb(255, 194, 216);
+}
+
+
+.left-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 50%;
+height: 100%; 
+}
+.right-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+width: 50%;
+height: 100%; 
+}
+.ply1{
+    text-align: center;
+    font-size: 28px;
+  padding: 10px;
+    box-shadow: 7px 10px 10px rgba(62, 62, 63, 0.2) inset, -2px -3px 18px white inset;
+}
+.ply1-score{
+    text-align: center;
+  margin-top: 10px;
+    padding: 15px 28px;
+    font-size: 50px;
+    box-shadow: 7px 10px 10px rgba(62, 62, 63, 0.2) inset, -2px -3px 18px white inset;
+    
+}
+.current-left{
+    text-align: center;
+    margin-top: 150px;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 60, 71);
+    border-radius: 5px;
+    box-shadow: 8px 10px 14px rgba(62, 62, 63, 0.2), -2px -2px 21px 0px white;
+}
+.new-game{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(252, 241, 241);
+    top: 200px;
+    box-shadow: 8px 10px 14px rgba(62, 62, 63, 0.2), -2px -2px 21px 0px rgb(249, 225, 225);
+cursor: pointer;
+}
+.new-game:active {
+    background-color: rgb(4, 255, 38);
+    transition:  0.1s;
+}
+.new-game i{
+padding-right:5px ;
+color: rgb(58, 4, 255);
+}
+.roll-dice{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(240, 248, 255);
+    top: 500px; 
+    box-shadow: 8px 10px 14px rgba(62, 62, 63, 0.2), -2px -2px 21px 0px white;
+    cursor: pointer;
+}
+.roll-dice i{
+    color: rgb(250, 56, 17);
+    padding-right:5px ;
+    
+}
+.hold{
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(240, 248, 255);
+    top: 550px;
+    box-shadow: 8px 10px 14px rgba(62, 62, 63, 0.2), -2px -2px 21px 0px white;
+    cursor: pointer;
+}
+.hold:active {
+    background-color: blue;
+    transition: all 0.3s;
+}
+
+.hold i{
+    color: rgb(0, 4, 255);
+    padding-right:5px ;
+    
+}
+.dice{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(230, 60, 71); */
+   border-radius: 5px;
+   display: flex;
+   box-shadow: 7px 10px 10px rgba(62, 62, 63, 0.2) inset, -2px -3px 18px white inset;
+   justify-content: center;
+   align-items: center;
+   
+}
+.dice img{
+    width: 80%;
+}
+
+.congrate{
+    position: absolute;
+color: white
+}
+.congrate-none{
+    display: none ;
+}
+.h-congrate{
+    padding: 10px 20px;
+    background-color: cornsilk;
+    color: red !important;
+    border-radius: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
