@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#sec1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1687042268541-5cc60ad9d3de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    transition: all 0.4s;
+}
+.main{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(123, 73, 251, 0.583);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+.login{
+    margin-bottom: 30px;
+    text-align: center !important;
+    display: block;
+}
+.card-img{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main label{
+    font-size: 20px;
+}
+ .main input{
+    padding: 10px 20px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+}
+ .main button{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    background-color: rgb(74, 77, 251);
+    color: white;
+}
+
+
+.hidden{
+    display: none !important;
+}
+#sec2{
+    padding: 0 50px;
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+    transition: 0.4s;
+   
+}
+.heding{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.mainbox{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}                                                                    
+.current-blnc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.allFeture{
+    width: 100%;
+    display: flex;
+    height: 500px ;
+
+    gap: 10px;
+}
+.transection{
+    width: calc(100%/2);
+    height: 100%;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 5px;
+}
+.transfer{
+    width: calc(100%/2);
+    height: 100%;
+}
+.transfer>div{
+    height: calc((95%/3));
+    width: 100%;
+    border-radius: 10px;
+}
+.first{
+    background: linear-gradient(rgba(115, 106, 242, 0.581),rgba(172, 174, 251, 0.476));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.first input{
+    border: none;
+    width: 110px;
+    height: 25px;
+    border-radius: 5px;
+}
+.first>div{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.first>p{
+    width: 60%;
+    display: flex;
+    justify-content:space-around; 
+    margin-right: 60px;
+}
+.second{
+    margin: 13px 0;
+    background: linear-gradient(rgba(176, 242, 106, 0.581),rgba(18, 225, 18, 0.476));
+}
+.third{
+    background: linear-gradient(rgba(242, 108, 106, 0.581),rgba(253, 23, 23, 0.716));
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.add-remove{
+    display: flex;
+
+}
+.foot p{
+    font-size: 15px;
+}
+.foot span{
+    font-size: 18px;
+    /* color: green; */
+    font-weight: bold;
+}
+.second>div{
+    justify-content: center;
+}
+.second>p{
+    justify-content: center;
+    margin: 0;
+}
+.tran-dtl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 0 10px;
+}
+.deposit{
+    background-color: green;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50px
+}
+.withdrawal{
+    background-color: rgb(245, 39, 39);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50px
+}
+.logout{
+    cursor: pointer;
+    color: red;
+}
+.logout:hover{
+    color: green;
+}
+button , img{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(255, 0, 149);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.pwd_hidden{
+    display: none !important;
+}
+#share{
+    color: white;
+    margin-right: 10px;
+}

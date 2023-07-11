@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+
+    <section id="sec1" class="">
+        <span  id="share"> username and passsword <br> (krishna,123) <br>(kumar,1234) <br>(raju,12345) <br>(ramesh,123456)</span>
+        <div class="card-img">
+            <img src="https://cdn.pixabay.com/photo/2014/10/30/14/14/credit-cards-509330_1280.png" alt="" width="300">
+        </div>
+
+        <div class="main">
+            <h1 class="login">Log in</h1>
+            <label for="user">Usename</label> <br>
+            <input class="user" type="text" placeholder="Username" required> <br>
+            <label for="user">password</label> <br>
+            <input class="pass" type="password" placeholder="password" required> <br>
+
+            <button id="btn">Submit</button>
+
+            <h3 style="color: red; position: absolute; bottom: 80px;" class="wrong pwd_hidden"> wrong password</h3>
+        </div>
+    </section>
+
+    <section id="sec2" class="hidden">
+        <div class="heding">
+
+            <div>
+                <h3>Welcome to Your Bank</h3>
+                <p class="UserTitle">Mr <span class="user_title"></span></p>
+            </div>
+
+
+            <img src="https://cdn.pixabay.com/photo/2014/10/30/14/14/credit-cards-509330_1280.png" alt="" width="60">
+            <h3 class="logout">Log Out</h3>
+        </div>
+
+        <div class="mainbox">
+            <div class="current-blnc">
+                <p style="color: rgb(4, 0, 128); font-size: 20px; font-weight: bold;">Current Balance <br> <span
+                        class="CurentDate">As of 19/06/2023</span></p>
+                <p style="color: green; font-size: 25px; font-weight: bold;"><span class="total_balnce">0</span>₹</p>
+            </div>
+            <div class="allFeture">
+                <div class="transection">
+                    <!-- <div class="tran-dtl"><p><span class="plus">10 deposit</span> <span>19/06/2023</span></p><p>1000₹</p></div>                     -->
+                </div>
+                <div class="transfer">
+                    <div class="first">
+                        <h3>Transfer money</h3>
+                        <div>
+                            <input class="tranfername" type="text" required> <input type="number" id="transfer_amount"> <span class="transfer_btn"><img
+                                    src="https://1000logos.net/wp-content/uploads/2023/04/Telegram-logo-500x281.png"
+                                    alt="" width="40"></span>
+                        </div>
+                        <p><span>Transfer To</span> <span>Amount</span></p>
+                    </div>
+                    <div class="second first ">
+                        <h3>Add Money</h3>
+                        <div>
+                            <input class="addpesa" type="number"> <span class="addmony"><img
+                                    src="https://1000logos.net/wp-content/uploads/2023/04/Telegram-logo-500x281.png"
+                                    alt="" width="40"></span>
+                        </div>
+                        <p><span> Amount</span> </p>
+                    </div>
+                    <div class="third first">
+                        <h3>Close Account</h3>
+                        <div>
+                            <input class="Closusr" type="text"> <input class="closePass" type="password"> <span
+                                class="closbtn"><img
+                                    src="https://1000logos.net/wp-content/uploads/2023/04/Telegram-logo-500x281.png"
+                                    alt="" width="40"></span>
+                        </div>
+                        <p><span> Username</span> <span>Password</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="foot">
+                <div class="add-remove">
+                    <p>IN <span style="color: green;"><span class="in_amount">0</span>₹</span></p> &nbsp;&nbsp;&nbsp;
+                    <p>OUT <span style="color: red;"><span class="out_amount">0</span>₹</span></p> &nbsp;&nbsp;&nbsp;
+                    <p>INTREST <span style="color: green;"><span class="interest_amount">0</span>₹</span></p>
+                    <p style="margin-left: 150px;"><span style="color: green; font-size: 25px; font-weight: bolder;" >↓</span>SORT</p>
+                </div>
+                
+                <P style="font-size: 20px; color: green;">You will be log out in <span class="timer" style="color: red;">05:00</span> </P>
+            </div>
+        </div>
+
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
