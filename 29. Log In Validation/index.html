@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>log in validation</title>
+</head>
+
+<body>
+    <main>
+        <div class="main-box">
+            <div class="heding">
+                <P>LOG IN VALIDATION</P>
+            </div>
+            <div class="input">
+                <input class="new-password" type="password" placeholder="Enter New Password">
+                <input class="re-enter-password" type="password" placeholder="Re Enter New Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            </div>
+            <div class="submit-password">
+                <p>SUBMIT PASSWORD</p>
+                
+            </div>
+            <p class="match-fail hidden1">Login Password  Failed</p>
+            <p class="succsess">Login successfully </p>
+            <p class="match"></p>
+
+            <div class="Info-pass"> 
+                <p style="color: black; font-size: 20px;">Password must contain the following</p>
+
+            <p class="lowercase"><span class="cross cr1">&#10539;</span> <span class="correct co1 hidden">&#10003;</span> A lowercase letter</p>
+            <p class="uppercase"><span class="cross cr2">&#10539;</span><span class="correct co2 hidden">&#10003;</span> A uppercase letter</p>
+            <p class="number"><span class="cross cr3">&#10539;</span><span class="correct co3 hidden">&#10003;</span> A number</p>
+            <p class="char_length"><span class="cross cr4">&#10539;</span><span class="correct co4 hidden">&#10003;</span> Between 6 characters to 13 characters</p>
+            <p class="special-charact"><span class="cross cr5">&#10539;</span><span class="correct co5 hidden">&#10003;</span> A special character</p>
+            </div>
+
+        </div>
+
+
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
