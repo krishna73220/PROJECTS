@@ -1,0 +1,65 @@
+@media only screen and (max-width: 700px) {
+    .card-box {
+        flex-direction: column;
+
+    }
+
+    .card-width {
+        width: calc(90%) !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .room-feater-main {
+        flex-direction: column;
+
+
+    }
+
+    .room-feater {
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .upr {
+        flex-direction: column;
+    }
+
+    .left-fo {
+        width: 90%;
+
+    }
+
+    .right-fo {
+        width: 90%;
+    }
+    .contect{
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width: 980px) {
+    .our-brand {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .our-brand-child {
+        width: calc(90%);
+
+    }
+
+
+    .our-brand-child {
+        width: calc(50%);
+
+    }
+}

@@ -1,0 +1,96 @@
+
+.contect {
+    justify-content: space-between;
+    margin: 50px auto;
+    background-color: whitesmoke;
+}
+
+.cv {
+    width: 30%;
+    min-width: 380px;
+    max-height: 500px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.cv a{
+    text-decoration: none;
+}
+.cva{
+    color: white;
+}
+.cv h1 {
+    font-size: 3rem;
+    color: rgb(3, 118, 3);
+    margin-bottom: 20px;
+}
+
+
+.inputs {
+    width: 60%;
+    min-width: 380px;
+    
+}
+
+.cv span {
+    color: rgb(1, 87, 1);
+}
+.cv span:hover{
+    text-decoration: underline;
+}
+
+.cv i {
+    color: rgb(212, 21, 81);
+    margin-right: 10px;
+}
+.cv i:hover{
+    color: green;
+}
+
+.cv>div {
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+.dcv {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.msgform{
+    color: green;
+    position: absolute;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 11.6px 0;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgb(181, 133, 1);
+
+}
+
+#msg {
+    height: 120px;
+}
+
+#submit {
+    background-color: #ff004f;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+}
+#submit:active{
+    background-color: green;
+}

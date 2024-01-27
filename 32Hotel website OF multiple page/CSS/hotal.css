@@ -1,0 +1,13 @@
+
+.hotal-col-main{
+    height: 100vh;
+    margin-top: 100px;
+}
+.hotal-col-main img{
+    width: 100%;
+}
+.pp, h1 ,p{
+    line-height: 35px;
+    /* font-size: large; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
